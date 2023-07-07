@@ -1,4 +1,4 @@
-package lld.pen.interfaces;
+package lld.pen.stretegies;
 
 public interface WritingStrategy {
 
