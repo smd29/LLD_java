@@ -1,4 +1,4 @@
-package lld.ParkingLot.strategies.timebased;
+package lld.ParkingLot.strategies;
 
 import lld.ParkingLot.models.Ticket;
 

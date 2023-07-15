@@ -1,6 +1,7 @@
-package lld.ParkingLot.strategies.timebased;
+package lld.ParkingLot.strategies;
 
 import lld.ParkingLot.strategies.dynamic.DynamicFeesFactory;
+import lld.ParkingLot.strategies.timebased.TimeBasedFeesStrategyFactory;
 
 public class FeesStrategyFactory {
     

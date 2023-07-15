@@ -10,10 +10,11 @@ public class TimeBasedFeesStrategyFactory implements FeesCalculationFactory{
     public FeesStrategy getStrategy(VehicleType vehicleType) {
         switch(vehicleType) {
             case Small:
-
+                return new SmallVehicleTimeStrategy();
             case Large:
+                return new LargeVehicleTimeStrategy();
             case Medium:
-                throw new RuntimeException("Not implemented");
+                return new MediumVehicleTimeStrategy();
         }
         throw new RuntimeException("Invalid type");
     }
